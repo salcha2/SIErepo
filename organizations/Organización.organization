@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Organización">
+  <customUserInfoDefinitions/>
+  <users/>
+  <roles>
+    <role name="Personal">
+      <displayName>Personal</displayName>
+    </role>
+    <role name="Usuario">
+      <displayName>Usuario</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Junta directiva" parentPath="/Trabajadores">
+      <displayName>Junta directiva</displayName>
+    </group>
+    <group name="Tecnicos" parentPath="/Trabajadores">
+      <displayName>Tecnicos</displayName>
+    </group>
+    <group name="Trabajadores">
+      <displayName>Trabajadores</displayName>
+    </group>
+    <group name="Delegados" parentPath="/Trabajadores">
+      <displayName>Delegados</displayName>
+    </group>
+    <group name="Voluntarios">
+      <displayName>Voluntarios</displayName>
+    </group>
+    <group name="Inmigración" parentPath="/Trabajadores/Tecnicos">
+      <displayName>Inmigración</displayName>
+    </group>
+    <group name="Cooperación" parentPath="/Trabajadores/Tecnicos">
+      <displayName>Cooperación</displayName>
+    </group>
+  </groups>
+  <memberships/>
+</organization:Organization>
